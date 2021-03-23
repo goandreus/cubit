@@ -19,7 +19,7 @@ class UsuarioService with ChangeNotifier {
     notifyListeners();
   }
 
-  void remoerUsuario() {
+  void removerUsuario() {
     this._usuario = null;
     notifyListeners();
   }

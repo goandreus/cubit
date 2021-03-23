@@ -16,7 +16,7 @@ class Pagina1Page extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.exit_to_app),
             onPressed: () {
-              usuarioService.remoerUsuario();
+              usuarioService.removerUsuario();
             },
           )
         ],
